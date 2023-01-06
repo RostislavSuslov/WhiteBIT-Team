@@ -206,6 +206,34 @@ body {
         font-size: 15px;
         line-height: 1;
         padding: 7px 12px;
-        margin-bottom: 28px;
+        width: fit-content;
+        margin: 0 auto 28px;
+        text-align: center;
+    }
+
+    .person-info__social-item a {
+        border-radius: 10px;
+        width: 56px;
+        height: 56px;
+        font-size: 9px;
+        padding: 5px 5px 9px;
+    }
+
+    .person-info__social-item img {
+        margin-bottom: 2px;
+        width: 26px;
+    }
+
+    .person-info__social {
+        width: 260px;
+        justify-content: center;
+        margin: 0 auto 36px;
+    }
+    .person-photo {
+        padding: 0 21px;
+    }
+
+    .person-photo::after {
+        background: url(/assets/img/bg-person.svg) center 50% / contain no-repeat;
     }
 }
