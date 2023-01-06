@@ -132,6 +132,10 @@ body {
     opacity: 0;
 }
 
+.person-info__social-item a:hover img {
+    opacity: 0.7;
+}
+
 .person-info__social-item img {
     margin-bottom: 6px;
 }
