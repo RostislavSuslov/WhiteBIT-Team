@@ -55,8 +55,8 @@ body {
 }
 
 .person-info {
-    padding: 188px 21px 0;
-    margin-bottom: auto;
+    padding: 0 21px 217px;
+    margin-top: auto;
     width: 100%;
 }
 
@@ -138,7 +138,7 @@ body {
 
 .person-info__logo {
     display: inline-flex;
-    transition: .2s;
+    transition: .1s;
 }
 
 .person-info__logo:hover {
@@ -162,8 +162,8 @@ body {
     }
 
     .person-info {
-        padding: 80px 21px 0;
-    }
+        padding: 0 21px 70px;
+    }  
 
     .person-info__position {
         margin-bottom: 60px;
@@ -186,7 +186,7 @@ body {
     .person-info {
         display: flex;
         flex-direction: column;
-        padding-top: 0;
+        padding: 0 21px;
     }
 
     .person-info__logo {
