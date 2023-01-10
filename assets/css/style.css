@@ -1,5 +1,4 @@
 @import url('fonts.css');
-@import url('media.css');
 
 * {
     box-sizing: border-box;
@@ -101,8 +100,8 @@ body {
     height: 100px;
     border-radius: 20px;
     background: #242449;
-    font-weight: 400;
-    font-size: 14px;
+ 
+    font-size: 16px;
     line-height: 12px;
     text-align: center;
     color: #D0D0DD;
@@ -217,10 +216,10 @@ body {
 
     .person-info__social-item a {
         border-radius: 10px;
-        width: 56px;
-        height: 56px;
-        font-size: 9px;
-        padding: 5px 5px 9px;
+        width: 65px;
+        height: 65px;
+        font-size: 12px;
+        padding: 5px 5px 14px;
     }
 
     .person-info__social-item img {
